@@ -1,0 +1,51 @@
+<suite name="orange test suite">
+
+  <test name="admin login testcase with valid data">
+  <parameter name="uid" value="Admin"></parameter>
+  <parameter name="pwd" value="Qedge123!@#"></parameter>
+    <classes>
+       <class name="orange.testcases.AdminloginwithValidData"></class>
+    </classes>
+  </test>
+
+
+<test name=" admin login testcase with invalid data">
+<parameter name="uid" value="Adm"></parameter>
+  <parameter name="pwd" value="Qee123!@#"></parameter>
+    <classes>
+      <class name="orange.testcases.AdminloginWithInvalidData"></class>
+    </classes>
+</test>
+
+
+<test name="emp reg testcase">
+  <parameter name="uid" value="Admin"></parameter>
+  <parameter name="pwd" value="Qedge123!@#"></parameter>
+  <parameter name="fname" value="sunkara"></parameter>
+  <parameter name="lname" value="demo"></parameter>
+ <classes>
+   <class name="orange.testcases.EmpReg"></class>
+</classes>
+</test>
+ 
+
+<test name="user reg testcase">
+<parameter name="uid" value="Admin"></parameter>
+  <parameter name="pwd" value="Qedge123!@#"></parameter>
+  <parameter name="ename" value="sunkara demo"></parameter>
+  <parameter name="uname" value="sunka"></parameter>
+  <parameter name="pword" value="Qedge123!@#"></parameter>
+<classes>
+<class name="orange.testcases.userReg"></class>
+
+
+</classes>
+
+
+
+</test>
+
+
+
+
+</suite>
